@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FileText, Download, Sparkles, FlaskConical } from 'lucide-react';
 
 export const Research: React.FC = () => {
-  const paperLink = "https://drive.google.com/file/d/1UspAu2ckTkUHPNA-q3TxF3kUqTq3z0-M/view?usp=sharing";
+  const paperLink = "https://drive.google.com/file/d/1dlNz1py4-8JYqa2_E7gk8q3Z0AwIEOfw/view?usp=sharing";
 
   return (
     <section id="research" className="py-24 relative">
@@ -29,7 +29,7 @@ export const Research: React.FC = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-display font-bold leading-tight">Advanced AI Systems & <br/> Neural Methodology</h3>
-                <p className="text-softGray mt-1">Latest Publication • PDF Available</p>
+                <p className="text-softGray mt-1">PDF Available</p>
               </div>
            </div>
            
@@ -53,7 +53,7 @@ export const Research: React.FC = () => {
                <FileText size={20} /> Abstract
              </h4>
              <p className="text-softGray leading-loose bg-cream p-6 rounded-2xl">
-               "This research explores novel approaches in neural network architectures to optimize processing speed without compromising accuracy. We introduce a hybrid model leveraging efficient attention mechanisms, demonstrating significant improvements in real-time inference tasks. The study provides a comprehensive analysis of dataset biases and proposes a new framework for ethical AI training."
+               "Static models fail against fast-evolving misinformation. This research introduces a Dynamic Weak Supervision Framework using BERT and Snorkel to continuously update fake news detection. We successfully tackle the critical problem of knowledge obsolescence head-on, providing an empirical blueprint for building adaptive, real-time systems despite noisy, limited data."
              </p>
           </div>
 
@@ -64,16 +64,16 @@ export const Research: React.FC = () => {
              </h4>
              <div className="space-y-4">
                <div className="flex items-center gap-4 p-4 border border-creamDark rounded-2xl hover:border-sunshine transition-colors bg-white">
-                 <div className="text-3xl font-black text-sunshineDark font-display">35%</div>
-                 <div className="text-sm font-medium text-softGray">Reduction in inference latency compared to baseline transformer models.</div>
+                 <div className="text-3xl font-black text-sunshineDark font-display">1</div>
+                 <div className="text-sm font-medium text-softGray">Dynamic Update Mitigates Knowledge Obsolescence, Especially in Specificity.</div>
                </div>
                <div className="flex items-center gap-4 p-4 border border-creamDark rounded-2xl hover:border-sunshine transition-colors bg-white">
-                 <div className="text-3xl font-black text-accentPink font-display">98%</div>
-                 <div className="text-sm font-medium text-softGray">Accuracy achieved on the standard benchmark dataset.</div>
+                 <div className="text-3xl font-black text-accentPink font-display">2</div>
+                 <div className="text-sm font-medium text-softGray">Performance Improvement Was Restricted by Data Scarcity and Noise.</div>
                </div>
                <div className="flex items-center gap-4 p-4 border border-creamDark rounded-2xl hover:border-sunshine transition-colors bg-white">
-                 <div className="text-2xl font-black text-warmText font-display">10x</div>
-                 <div className="text-sm font-medium text-softGray">Faster convergence during the training phase.</div>
+                 <div className="text-2xl font-black text-warmText font-display">3</div>
+                 <div className="text-sm font-medium text-softGray">The Weak Supervision Pipeline Suffered from Low Expert Model Diversity.</div>
                </div>
              </div>
           </div>
