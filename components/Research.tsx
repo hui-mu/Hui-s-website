@@ -72,7 +72,7 @@ export const Research: React.FC = () => {
                  <div className="text-sm font-medium text-softGray">Performance Improvement Was Restricted by Data Scarcity and Noise.</div>
                </div>
                <div className="flex items-center gap-4 p-4 border border-creamDark rounded-2xl hover:border-sunshine transition-colors bg-white">
-                 <div className="text-2xl font-black text-warmText font-display">3</div>
+                 <div className="text-3xl font-black text-warmText font-display">3</div>
                  <div className="text-sm font-medium text-softGray">The Weak Supervision Pipeline Suffered from Low Expert Model Diversity.</div>
                </div>
              </div>
