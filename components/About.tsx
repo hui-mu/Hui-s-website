@@ -6,9 +6,11 @@ export const About: React.FC = () => {
   const skills = [
     "React & TypeScript",
     "Python & PyTorch",
+    "Data Engineering",
     "LLM & GenAI",
     "System Design",
-    "Cloud Infrastructure"
+    "Cloud Infrastructure",
+    "Open Source Contributions"
   ];
 
   return (
@@ -55,7 +57,7 @@ export const About: React.FC = () => {
              </div>
              
              <p className="text-xl leading-relaxed mb-6 font-medium text-warmText">
-               Hi, I'm <span className="text-sunshineDark">Hui</span>. I am a passionate <strong>Full-stack Software Engineer</strong> and <strong>AI Engineer</strong>.
+               Hi, I'm <span className="text-sunshineDark">Hui</span>, <strong>Full-stack & AI Engineer</strong>, passionate about building intelligent, human-centered systems.
              </p>
              <p className="text-lg text-softGray leading-relaxed">
                My professional journey is a blend of rigorous engineering and creative exploration. I specialize in building scalable web applications and integrating cutting-edge Artificial Intelligence models to solve real-world problems. From crafting intuitive UIs to training complex neural networks, I love every part of the stack.

@@ -38,9 +38,9 @@ export const Contact: React.FC = () => {
              <a href="https://github.com/hui-mu" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-sunshine transition-colors group">
                Github <ArrowUpRight size={20} className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
              </a>
-             <a href="#" className="flex items-center gap-2 hover:text-sunshine transition-colors group">
+             {/* <a href="#" className="flex items-center gap-2 hover:text-sunshine transition-colors group">
                Google Scholar <ArrowUpRight size={20} className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
-             </a>
+             </a> */}
           </div>
         </div>
 
