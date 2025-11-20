@@ -5,91 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hui | AI & Software Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script>
       tailwind.config = {
         theme: {
           extend: {
             fontFamily: {
-              sans: ['Quicksand', 'sans-serif'],
-              display: ['Fredoka', 'cursive'],
+              sans: ["Quicksand", "sans-serif"],
+              display: ["Fredoka", "cursive"],
             },
             colors: {
-              cream: '#FFFDF5',
-              creamDark: '#F2EFE5',
-              sunshine: '#FFD93D',
-              sunshineLight: '#FFE66D',
-              sunshineDark: '#F4C430',
-              warmText: '#5C5445',
-              softGray: '#99948D',
-              accentPink: '#FF8FA3',
+              cream: "#FFFDF5",
+              creamDark: "#F2EFE5",
+              sunshine: "#FFD93D",
+              sunshineLight: "#FFE66D",
+              sunshineDark: "#F4C430",
+              warmText: "#5C5445",
+              softGray: "#99948D",
+              accentPink: "#FF8FA3",
             },
             borderRadius: {
-              '4xl': '2.5rem',
+              "4xl": "2.5rem",
             },
             animation: {
-              'float': 'float 6s ease-in-out infinite',
-              'wiggle': 'wiggle 1s ease-in-out infinite',
+              float: "float 6s ease-in-out infinite",
+              wiggle: "wiggle 1s ease-in-out infinite",
             },
             keyframes: {
               float: {
-                '0%, 100%': { transform: 'translateY(0)' },
-                '50%': { transform: 'translateY(-20px)' },
+                "0%, 100%": { transform: "translateY(0)" },
+                "50%": { transform: "translateY(-20px)" },
               },
               wiggle: {
-                '0%, 100%': { transform: 'rotate(-3deg)' },
-                '50%': { transform: 'rotate(3deg)' },
-              }
-            }
+                "0%, 100%": { transform: "rotate(-3deg)" },
+                "50%": { transform: "rotate(3deg)" },
+              },
+            },
           },
         },
-      }
+      };
     </script>
     <style>
       body {
-        background-color: #FFFDF5;
-        color: #5C5445;
+        background-color: #fffdf5;
+        color: #5c5445;
         overflow-x: hidden;
-        font-family: 'Quicksand', sans-serif;
+        font-family: "Quicksand", sans-serif;
       }
-      h1, h2, h3, h4, h5, h6 {
-        font-family: 'Fredoka', sans-serif;
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Fredoka", sans-serif;
       }
       /* Custom Scrollbar */
       ::-webkit-scrollbar {
         width: 12px;
       }
       ::-webkit-scrollbar-track {
-        background: #FFFDF5; 
+        background: #fffdf5;
       }
       ::-webkit-scrollbar-thumb {
-        background: #FFE66D; 
+        background: #ffe66d;
         border-radius: 10px;
-        border: 3px solid #FFFDF5;
+        border: 3px solid #fffdf5;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #FFD93D; 
+        background: #ffd93d;
       }
       ::selection {
-        background-color: #FFD93D;
-        color: #5C5445;
+        background-color: #ffd93d;
+        color: #5c5445;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
-  }
-}
-</script>
-</head>
+    <script type="importmap">
+      {
+        "imports": {
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+          "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react": "https://aistudiocdn.com/react@^19.2.0"
+        }
+      }
+    </script>
+  </head>
   <body>
+    <!-- 把入口文件挂进来，很关键 -->
+    <script type="module" src="/index.tsx"></script>
     <div id="root"></div>
   </body>
 </html>
