@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
         className="text-3xl font-display font-bold tracking-tight cursor-pointer hover:text-sunshineDark transition-colors text-warmText"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        Hui<span className="text-sunshineDark text-4xl">.</span>
+        Huii<span className="text-sunshineDark text-4xl">.</span>
       </div>
 
       <nav className="hidden md:flex items-center gap-6 font-bold text-sm uppercase tracking-wide bg-white/50 px-8 py-3 rounded-full border border-warmText/5 shadow-sm">
