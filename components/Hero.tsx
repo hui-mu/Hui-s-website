@@ -42,7 +42,7 @@ export const Hero: React.FC = () => {
             className="mt-8 flex flex-col lg:flex-row items-center lg:items-start gap-6"
           >
             <p className="text-xl md:text-2xl font-medium max-w-lg leading-relaxed text-softGray">
-              I'm <strong className="text-warmText bg-creamDark px-2 rounded-lg">Hui</strong>. I building intelligent systems with creativity and care.
+              I'm <strong className="text-warmText bg-creamDark px-2 rounded-lg">Hui</strong>. I build full-stack, human-centered systems with creativity and care.
             </p>
             
             <motion.button 
