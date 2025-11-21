@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write # 👈 关键：允许 Actions 写入仓库内容
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
