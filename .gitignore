@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 promt.md
+log.txt
+
+.vite/
