@@ -4,7 +4,8 @@ import { ArrowDown, Sparkles } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   // Direct link for Google Drive image
-  const profileImg = "https://lh3.googleusercontent.com/d/1qqyFv7W1_ZxSF-fAqfBryXyilSK1mySt";
+  // const profileImg = "https://lh3.googleusercontent.com/d/1qqyFv7W1_ZxSF-fAqfBryXyilSK1mySt";
+  const profileImg = "https://drive.google.com/file/d/1Kv0cIL86hwO1y7djwW5z2YANXxgyUwGw/view?usp=sharing";
 
   return (
     <section className="min-h-screen flex flex-col justify-center pt-28 pb-12">
